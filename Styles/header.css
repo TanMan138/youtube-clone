@@ -1,0 +1,172 @@
+.top-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(15, 15, 15);
+    z-index: 95;
+}
+.header{
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    justify-content: space-between;
+}
+.left-header{
+    display: flex;
+    width: 165px;
+    align-items: center;
+}
+.middle-header{
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 90px;
+    max-width: 570px;
+    display: flex;
+    align-items: center;
+}
+.right-header{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+}
+.menu-image{
+    height: 24px;
+}
+.menu-button{
+    vertical-align: middle;
+    margin-left: 18px;
+    margin-right: 26px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(15, 15, 15);
+    border: solid;
+    border-radius: 20px;
+    transition: filter 0.15s;
+    cursor: pointer;
+}
+.menu-button:hover{
+    filter: brightness(2);
+}
+.menu-button:active{
+    filter: brightness(3);
+}
+.youtube-image{
+    height: 20px;
+}
+.search-image{
+    height: 25px;
+    padding-top: 5px;
+}
+.search-box{
+    flex: 1;
+    width: 0;
+    height: 35px;
+    background-color: rgb(15, 15, 15);
+    border: solid;
+    border-color: rgb(48, 48, 48);
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: Roboto;
+    color: whitesmoke;
+}
+.search-box::placeholder{
+    font-size: 15px;
+    font-family: Roboto;
+}
+.search-button{
+    height: 40px;
+    width: 60px;
+    background-color:#222222;
+    border: solid;
+    border-left: none;
+    border-right: #222222;
+    border-color: rgb(48, 48, 48);
+    border-radius: 0px 20px 20px 0px;
+    margin-right: 20px;
+    transition: filter 0.15s;
+}
+.mic-button{
+    height: 40px;
+    width: 40px;
+    background-color:#222222;
+    border: none;
+    border-radius: 20px;
+    transition: filter 0.15s;
+    cursor: pointer;
+}
+.mic-button:hover{
+    filter: brightness(1.75);
+}
+.mic-button:active{
+    filter: brightness(2.5);
+}
+.mic-image{
+    padding-top: 2px;
+    height: 23px;
+}
+.create-image{
+    height: 25px;
+    margin: 0;
+    cursor: pointer;
+}
+.notifs-image{
+    height: 25px;
+    cursor: pointer;
+}
+.user-image{
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.tags-container {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background: rgb(15, 15, 15); 
+    scrollbar-width: none;
+    margin-bottom: 20px;
+    margin-left:80px ;
+}
+
+.tag {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 450;
+    padding: 8px 16px;
+    margin: 0 4px;
+    background-color: #222222;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: filter 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+}
+.default-tag{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 450;
+    padding: 8px 16px;
+    margin: 0 4px;
+    background-color:whitesmoke;
+    color: #222222;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: filter 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+}
+
+.tag:hover {
+    filter: brightness(1.75);
+}
+.tag:active{
+    background-color: whitesmoke;
+    color: rgb(15, 15, 15);
+}
